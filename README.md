@@ -1,3 +1,18 @@
+derived from sinopia v1.4.0(https://github.com/rlidwka/sinopia)
+
+新的github地址：https://github.com/freedom1989/sinopia.git
+
+修复了sinopia部分bugs:
+* 不显示发布者名称的bug
+
+搭建方法见:
+https://wiki.bytedance.com/pages/viewpage.action?pageId=52047285
+
+
+以下信息来自原来的README:
+
+
+
 `sinopia` - a private/caching npm repository server
 
 [![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)

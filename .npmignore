@@ -5,7 +5,7 @@ sinopia-*.tgz
 
 ###
 bin/**
-!bin/sinopia
+!bin/byted-sinopia
 test-storage*
 
 /.*

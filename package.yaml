@@ -1,7 +1,9 @@
 # use "yapm install ." if you're installing this from git repository
 
-name: sinopia
-version: 1.4.0
+# changed by lilintao 2015/12/4
+
+name: byted-sinopia
+version: 1.4.01
 description: Private npm repository server
 
 author:
@@ -15,7 +17,7 @@ repository:
 main: index.js
 
 bin:
-  sinopia: ./bin/sinopia
+  byted-sinopia: ./bin/byted-sinopia
 
 dependencies:
   express: '>=5.0.0-0 <6.0.0-0'
@@ -125,10 +127,8 @@ scripts:
 engines:
   node: '>=0.10'
 
-preferGlobal: true
-
 publishConfig:
-  registry: https://registry.npmjs.org/
+  registry: http://npm.byted.org/
 
 license:
   type: WTFPL
